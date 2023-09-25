@@ -14,6 +14,13 @@ This repo contains homework assignments for "Deep Learning Models Compression" c
 - ROC AUC упал незначительно - с ~96% до ~95%
 - В качестве минуса: встроенный инструмент Torch не позволяет получающейся модели работать с CUDA-бэкендом. Квантование в Int8 не даст прирост по скорости инференса на многих видеокартах, но на CPU это может дать значительнный прирост
 
+## Карточка модели
+https://huggingface.co/Den4ikAI/ruBert-base-qa-ranker/tree/main
+
 ## Базовые замеры
 <img width="688" alt="Screenshot 2023-09-25 at 17 20 54" src="https://github.com/arsenplus/itmo_nn_compression_course/assets/56270907/9101eeb1-5f14-44c9-a6cf-b4f0a76b4b99">
+
+## Замеры после прунинга
+<img width="686" alt="Screenshot 2023-09-25 at 17 22 16" src="https://github.com/arsenplus/itmo_nn_compression_course/assets/56270907/207675ca-dff7-4918-9662-1db4b275b0f5">
+
 
